@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeniyi Olamide - Personal Portfolio</title>
+    <style>
+        /* CSS styling is included in the head for simplicity */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        #about p {
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        #skills li {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+        }
+
+        #contact p {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Adeniyi Olamide</h1>
+            <p>Student of Mathematics, University of Ilorin</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                A dedicated and passionate mathematics student at the University of Ilorin with a strong foundation in mathematical principles and a keen interest in applying analytical skills to solve real-world problems. Eager to learn and grow in the field of data analysis and quantitative research.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Mathematical Modeling</li>
+                <li>Statistical Analysis</li>
+                <li>Python (NumPy, Pandas)</li>
+                <li>R</li>
+                <li>SQL</li>
+                <li>Problem Solving</li>
+                <li>Data Visualization</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Analysis of Student Performance Data</h3>
+                <p>A project that involved collecting and analyzing student academic data to identify key factors influencing performance. Utilized statistical methods and Python for data analysis and visualization.</p>
+            </div>
+            <div class="project">
+                <h3>Mathematical Modeling of Infectious Disease Spread</h3>
+                <p>Developed a mathematical model to simulate the spread of an infectious disease within a population. This project involved differential equations and simulation techniques to understand disease dynamics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: adeniyi.olamide@example.com</p>
+            <p>LinkedIn: linkedin.com/in/adeniyiolamide</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Adeniyi Olamide</p>
+        </div>
+    </footer>
+
+</body>
+</html>
